@@ -1,1 +1,0 @@
-<?php include(ADMIN_TEMPLATE.'categoryAdd.php'); ?>

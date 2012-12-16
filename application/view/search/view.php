@@ -1,1 +1,0 @@
-<?php include(BLOG_TEMPLATE.'search.php'); ?>   

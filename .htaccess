@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^admin/?$ admin.php [L,QSA]
+RewriteRule ^admin/([^\.]+)/?$ admin.php?action=$1 [L,QSA]
+RewriteRule ^([^\.]+)/?$ index.php?action=$1 [L,QSA]
+</IfModule>

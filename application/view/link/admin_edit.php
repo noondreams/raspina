@@ -1,0 +1,1 @@
+<?php include(ADMIN_TEMPLATE.'linkEdit.php'); ?>

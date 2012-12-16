@@ -1,0 +1,1 @@
+<?php include(BLOG_TEMPLATE.'login.php'); ?>

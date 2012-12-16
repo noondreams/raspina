@@ -48,7 +48,8 @@ class messageController extends appController
 		{
 			$edit = array(
 				'table'=>'message',
-				'update'=>$this->message->data
+				'update'=>$this->message->data,
+				'where'=>array('id', $this->id)
 				);
 			$this->message->edit($edit);
 		}
